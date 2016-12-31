@@ -1,5 +1,5 @@
 # springREST
-It's debug tips when writing spring rest codes
+It record the debug tips when writing spring rest codes
 
 
 # Spring REST
