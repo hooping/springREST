@@ -12,7 +12,6 @@ When URL include "?", it can't be requested mapped well, e.g., when having below
 `@RequestMapping(value = "/articles/?offset={offset}&limit={limit}", method = RequestMethod.GET, headers = "Accept=Application/Json")`
 
 The request will not match /articles?offset..., instead it will just match "articles".
-From the log, we can see: 
 
 ### #1 Solution
 Use @RequestParam to handle it
